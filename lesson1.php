@@ -11,8 +11,8 @@
 	}
 
 $dog1 = new Dog();
-$dog1­>firstName = “BooBoo”;
-$dog1­>lastName = “Iwao”;
+$dog1­>firstName = “Barry”;
+$dog1­>lastName = “Allen”;
 print “The dog’s name is {$dog1­>getName()}.”;
 
-//The dog’s name is BooBoo Iwao.
+//The dog’s name should be BARRY ALLEN
