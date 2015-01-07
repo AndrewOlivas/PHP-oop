@@ -93,7 +93,7 @@ ________________________________________________________________________________
 		}
 	}
 
-	$armadillo = new Armadillo(“Mike”, “Rolo”, “Armadillo”);
+	$armadillo = new Armadillo(“Mike”, “Rolo”, “GiantArmadillo”);
 	print “Armadillo”: {$armadillo­>getName()}\n;
 
 // new example
