@@ -1,3 +1,4 @@
+<?php  
 	class Dog {
 		public $firstName = “default name”;
 		public $lastName = “default last name”;
