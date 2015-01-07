@@ -18,11 +18,38 @@
 	print “The dog’s name is {$dog1­>getName()}.”;
 
 //The dog’s name should be BARRY ALLEN
+// example 2
+	class Dog {
+		public $firstName = “default name”;
+		public $lastName = “default last name”;
+		public $gender = “male”;
+		public $price = 0;
 
+	function getName() {
+		return “{$this­>firstName}” .
+		“{$this­>lastName}”;
+		}
+	}
 	$name = new Name();
 	$name­>firstName = “Andrew”;
 	$name­>lastName = “Olivas”;
 	print “My name is {$name­>getName()}.”;
+// example 3
+	class Chicken {
+		public $firstName = “default name”;
+		public $lastName = “default last name”;
+		public $gender = “male”;
+		public $price = 0;
+
+	function getName() {
+		return “{$this­>firstName}” .
+		“{$this­>lastName}”;
+		}
+	}
+	$chicken = new Name();
+	$chicken­>firstName = “nuggets”;
+	$chicken­>lastName = “boyd”;
+	print “My Chickens name is {$name­>getName()}.”;
 
 ?>
 ____________________________________________________________________________________________________________________________________________________________
