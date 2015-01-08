@@ -20,7 +20,7 @@
 //The dog’s name should be BARRY ALLEN
 // example 2
 
-	class Dog {
+	class Name {
 		public $firstName2 = “default name”;
 		public $lastName2 = “default last name”;
 		public $gender2 = “male”;
@@ -130,29 +130,29 @@ ________________________________________________________________________________
 	if (is_array())echo “this is an array”;
 	else
 	echo ‘this is not an array’;
-	var_dump(is_string(‘XYZ’);
-	var_dump(is_string(‘8008’);
-	var_dump(is_string(123);
-	var_dump(is_string(false);
+	var_dump(is_array(‘XYZ’));
+	var_dump(is_array(‘8008’));
+	var_dump(is_array(123));
+	var_dump(is_array(false));
 
 // example 2
 
-	if (is_null())echo “nothing should show up”;
+	if (is_null("nothing"))echo “nothing should show up”;
 	else
 	echo ‘this should not show up’;
-	var_dump(is_string(‘XYZ’);
-	var_dump(is_string(‘8008’);
-	var_dump(is_string(123);
-	var_dump(is_string(false);
+	var_dump(is_null(‘XYZ’));
+	var_dump(is_null(‘8008’));
+	var_dump(is_null(123));
+	var_dump(is_null(false));
 // example 3
 
-	if (is_null())echo “nothing should show up”;
+	if (is_object("12"))echo “12 is an object”;
 	else
-	echo ‘this should not show up’;
-	var_dump(is_string(‘XYZ’);
-	var_dump(is_string(‘8008’);
-	var_dump(is_string(123);
-	var_dump(is_string(false);
+	echo ‘12 is not an object’;
+	var_dump(is_object(‘XYZ’));
+	var_dump(is_object(‘8008’));
+	var_dump(is_object(123));
+	var_dump(is_object(false));
 
 
 ?>
