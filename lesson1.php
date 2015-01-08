@@ -127,9 +127,9 @@ ________________________________________________________________________________
 // lesson 3
 
 	<?php
-	if (is_string())echo “It is a string”;
+	if (is_array())echo “this is an array”;
 	else
-	echo ‘It is not a string’;
+	echo ‘this is not an array’;
 	var_dump(is_string(‘XYZ’);
 	var_dump(is_string(‘8008’);
 	var_dump(is_string(123);
@@ -137,12 +137,22 @@ ________________________________________________________________________________
 
 // example 2
 
-	if (is_string())echo “It is a string”;
+	if (is_null())echo “nothing should show up”;
 	else
-	echo ‘It is not a string’;
+	echo ‘this should not show up’;
 	var_dump(is_string(‘XYZ’);
 	var_dump(is_string(‘8008’);
 	var_dump(is_string(123);
 	var_dump(is_string(false);
+// example 3
+
+	if (is_null())echo “nothing should show up”;
+	else
+	echo ‘this should not show up’;
+	var_dump(is_string(‘XYZ’);
+	var_dump(is_string(‘8008’);
+	var_dump(is_string(123);
+	var_dump(is_string(false);
+
 
 ?>
